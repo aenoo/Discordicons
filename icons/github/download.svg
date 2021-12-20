@@ -1,0 +1,10 @@
+<svg data-name="Download" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 172 172">
+<g fill="none" stroke-miterlimit="10" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode:normal">
+    <path d="M0 172V0h172v172z"/>
+    <g fill="rgb(50, 215, 75)">
+        <path d="M129 150.5H43c-11.875 0-21.5-9.625-21.5-21.5V43c0-11.875 9.625-21.5 21.5-21.5h86c11.875 0 21.5 9.625 21.5 21.5v86c0 11.875-9.625 21.5-21.5 21.5z" opacity=".35"/>
+        <path d="M100.333 96.184V24.517c0-7.919-6.414-14.333-14.333-14.333-7.92 0-14.333 6.414-14.333 14.333v71.667z"/>
+        <path d="M56.395 86c-5.526 0-8.307 6.665-4.415 10.592l27.635 27.9a8.993 8.993 0 0012.77 0l27.635-27.9C123.912 92.665 121.131 86 115.605 86z"/>
+    </g>
+</g>
+</svg>
