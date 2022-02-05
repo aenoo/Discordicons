@@ -13,11 +13,11 @@ $both: "https://aenoo.github.io/Discordicons/icons/settings/both"
 
 body #app-mount
     .sidebarRegion-1VBisG
-        flex-basis: calc(218px + ($useicons * ($iconssize + $iconsgap))) !important
+        flex-basis: 218px + ($useicons * ($iconssize + $iconsgap)) !important
 
     .sidebar-nqHbhN,
     .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN
-        width: calc(218px + ($useicons * ($iconssize + $iconsgap))) !important
+        width: 218px + ($useicons * ($iconssize + $iconsgap)) !important
 
 #bd-settings-sidebar .ui-tab-bar-item,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
@@ -28,9 +28,9 @@ body #app-mount
         content: ""
         position: relative
         flex: 0 0 auto
-        width: calc($useicons * $iconssize)
-        height: calc($useicons * $iconssize)
-        margin-right: calc($useicons * $iconsgap)
+        width: $useicons * $iconssize
+        height: $useicons * $iconssize
+        margin-right: $useicons * $iconsgap
         background: currentColor
         z-index: 2
         -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/unknownIcon.svg") center/contain no-repeat
@@ -41,7 +41,7 @@ body #app-mount
 .sidebar-nqHbhN .side-2ur1Qk
     .item-3XjbnG .icon-3FU6Ir,
     .premiumLabel-V52REm svg
-        transform: scaleX(calc(1 - $useicons))
+        transform: scaleX(1 - $useicons)
 
 // ---- Personal Settings ----
 
