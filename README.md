@@ -2,7 +2,7 @@
 
 [download-badge]: https://aenoo.github.io/Discordicons/icons/github/download.svg
 [support-badge]: https://aenoo.github.io/Discordicons/icons/github/support.svg
-[download-link]: https://aenoo.github.io/Discordicons/src/discordicons.theme.css
+[download-link]: https://github.com/aenoo/Discordicons/releases/download/v0.0.1/discordicons.theme.css
 [support-link]: https://github.com/aenoo/Discordicons/issues
 
 A BetterDiscord theme that adds icons to Discord settings and changes the "settings" icon.
