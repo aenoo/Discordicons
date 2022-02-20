@@ -6,6 +6,6 @@
 
 - The "Keybinds", "Advanced", "Custom CSS", "Plugins", "Libraries" and "Plugin Repo" icons are from [Settings Icons](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/_res/svgs/settingsicons) by [Mirco Wittrien / DevilBro](https://github.com/mwittrien).
 
-## Icons used in [README.md](https://github.aenoo.io/Discordicons/README.md)
+## Icons used in [README.md](https://github.com/aenoo/Discordicons/blob/main/README.md)
 
 - The "Download", "Support"/"Help" and "Heart" icons are from [Fluency Systems Regular](https://icons8.com/icons/fluency-systems-regular) by [Icons8](https://icons8.com).
