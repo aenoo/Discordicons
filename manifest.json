@@ -7,7 +7,7 @@
         "id": "916799876677926982"
     },
     "theme": "src/discordicons.theme.css",
-    "icon": "assets/icon.svg",
+    "icon": "assets/icon.png",
     "consent": "false",
     "license": "MIT"
 }
