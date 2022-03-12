@@ -1,0 +1,13 @@
+{
+    "name": "Discordicons",
+    "description": "Adds icons to Discord settings and changes the settings icon everywhere in Discord.",
+    "version": "0.0.1",
+    "author": {
+        "name": "αɜno",
+        "id": "916799876677926982"
+    },
+    "theme": "src/discordicons.theme.css",
+    "icon": "images/icon.png",
+    "consent": "false",
+    "license": "MIT"
+}
