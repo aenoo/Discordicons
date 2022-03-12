@@ -13,11 +13,9 @@ A Discord theme that adds icons to Discord settings and changes the "settings" i
 
 ### BetterDiscord
 
-Download the theme by clicking the download button below:
+Click the button below and save the file into your theme folder.
 
 [![Download](https://aenoo.github.io/Discordicons/github/download-button.svg)][download-link]
-
-And save it into your theme folder.
 
 ### Powercord & Vizality
 
