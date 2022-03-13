@@ -18,9 +18,9 @@ Click the button below and save the file into your theme folder.
 git clone https://github.com/aenoo/Discordicons
 ```
 
-## Integration
+# Integration
 
-You can add Discordicons to your projects by adding this line of code to them:
+You can integrate Discordicons into your projects by adding this line of code to them:
 
 ```css
 @import url(https://aenoo.github.io/Discordicons/src/main.css);
