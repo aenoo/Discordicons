@@ -2,7 +2,7 @@
 
 [download-link]: https://github.com/aenoo/Discordicons/releases/download/v0.0.1/discordicons.theme.css
 
-A Discord theme that adds icons to Discord settings and changes the "settings" icon everywhere in Discord.
+Add icons to Discord settings & change the settings icon all over Discord.
 
 # Installation
 
