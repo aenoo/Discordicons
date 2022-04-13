@@ -167,8 +167,11 @@ body #app-mount
 
 // Unnamed Category 2
 .sidebar-nqHbhN .side-2ur1Qk
-    .item-3XjbnG[aria-controls="Logout-tab" i]::before
-        -webkit-mask: url("#{$personal}/logOut.svg") center/contain no-repeat
+    .item-3XjbnG[aria-controls="Logout-tab" i]
+        svg
+            visibility: hidden
+        &::before
+            -webkit-mask: url("#{$personal}/logOut.svg") center/contain no-repeat
 
 // ---- Server Settings ----
 
@@ -194,6 +197,8 @@ body #app-mount
         -webkit-mask: url("#{$server}/widget.svg") center/contain no-repeat
     .item-3XjbnG[aria-controls="GUILD_TEMPLATES-tab" i]::before
         -webkit-mask: url("#{$server}/serverTemplates.svg") center/contain no-repeat
+    // .item-3XjbnG[aria-controls="VANITY_URL-tab" i]::before
+    //     -webkit-mask: url("#{$server}/vanityUrl.svg") center/contain no-repeat
 
 // Community
 .sidebar-nqHbhN .side-2ur1Qk
@@ -226,8 +231,11 @@ body #app-mount
 
 // Unnamed Category 3
 .sidebar-nqHbhN .side-2ur1Qk
-    .item-3XjbnG[aria-controls="DELETE-tab" i]::before
-        -webkit-mask: url("#{$server}/deleteServer.svg") center/contain no-repeat
+    .item-3XjbnG[aria-controls="DELETE-tab" i]
+        svg
+            visibility: hidden
+        &::before
+            -webkit-mask: url("#{$server}/deleteServer.svg") center/contain no-repeat
 
 // ---- Both Settings ----
 
@@ -252,7 +260,7 @@ body #app-mount
     .item-3XjbnG[aria-controls="Discord Nitro-tab" i] svg,
     .item-3XjbnG[aria-controls="Discord-Nitro-tab" i] svg,
     .item-3XjbnG[aria-controls="GUILD_PREMIUM-tab" i] svg
-        visibility: hidden;
+        visibility: hidden
 
 // ------------------------ ♻️ GENERAL ICONS ------------------------
 
