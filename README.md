@@ -1,6 +1,6 @@
 ![Banner](https://aenoo.github.io/Discordicons/assets/banner.png)
 
-[download-link]: https://github.com/aenoo/Discordicons/releases/download/v0.0.2/discordicons.theme.css
+[download-link]: https://github.com/aenoo/Discordicons/releases/download/vBD/discordicons.theme.css
 
 Add icons to Discord settings & change the settings icon all over Discord.
 
