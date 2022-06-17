@@ -202,6 +202,9 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=MODERATION-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/server/moderation.svg") center/contain no-repeat;
 }
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=GUILD_AUTOMOD_MESSAGE_FILTER-tab i]::before {
+  -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/server/guildAutomodMessageFilter.svg") center/contain no-repeat;
+}
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=AUDIT_LOG-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/server/auditLog.svg") center/contain no-repeat;
 }
