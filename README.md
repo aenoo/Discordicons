@@ -23,7 +23,7 @@ git clone https://github.com/aenoo/Discordicons
 You can integrate Discordicons into your projects by adding this line of code to them:
 
 ```css
-@import url(https://aenoo.github.io/Discordicons/src/main.css);
+@import url("https://aenoo.github.io/Discordicons/src/main.css");
 ```
 
 # Previews
