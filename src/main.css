@@ -47,10 +47,10 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/personal/connections.svg") center/contain no-repeat;
 }
 
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i] svg, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Discord-Nitro-tab i] w svg {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i] svg, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Discord-Nitro-tab i] svg {
   visibility: hidden;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Discord-Nitro-tab i] w::before {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Discord Nitro-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Discord-Nitro-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/personal/discordNitro.svg") center/contain no-repeat;
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Nitro Server Boost-tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Nitro-Server-Boost-tab i]::before {
