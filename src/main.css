@@ -31,6 +31,14 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
   transform: scaleX(0);
 }
 
+#app-mount .item-3XjbnG:not(.tabBarItem-30Te4-) .premiumLabel-3HPvdB > svg {
+    right: 0;
+}
+#app-mount .item-3XjbnG:not(.tabBarItem-30Te4-) svg {
+    position: absolute;
+    right: 10px;
+}
+
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="My Account-tab" i]::before,
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=My-Account-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/personal/myAccount.svg") center/contain no-repeat;
