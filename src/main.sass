@@ -11,6 +11,8 @@ $personal: "https://aenoo.github.io/Discordicons/icons/settings/personal"
 $server: "https://aenoo.github.io/Discordicons/icons/settings/server"
 $both: "https://aenoo.github.io/Discordicons/icons/settings/both"
 
+$ccn: center/contain no-repeat
+
 body #app-mount
     .sidebarRegion-1VBisG
         flex-basis: 218px + ($useicons * ($iconssize + $iconsgap)) !important
@@ -31,7 +33,7 @@ body #app-mount
         margin-right: $useicons * $iconsgap
         background: currentColor
         z-index: 2
-        -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/unknownIcon.svg") center/contain no-repeat
+        -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/unknownIcon.svg") $ccn
 
 .bd-server-search ~ .item-3XjbnG::before
     display: none
@@ -46,18 +48,18 @@ body #app-mount
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="My Account-tab" i]::before,
     &[aria-controls="My-Account-tab" i]::before
-        -webkit-mask: url("#{$personal}/myAccount.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/myAccount.svg") $ccn
     &[aria-controls="Profile Customization-tab" i]::before,
     &[aria-controls="Profile-Customization-tab" i]::before
-        -webkit-mask: url("#{$personal}/edit.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/edit.svg") $ccn
     &[aria-controls="Privacy & Safety-tab" i]::before,
     &[aria-controls="Privacy-&-Safety-tab" i]::before
-        -webkit-mask: url("#{$personal}/privacyAndSafety.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/privacyAndSafety.svg") $ccn
     &[aria-controls="Authorized Apps-tab" i]::before,
     &[aria-controls="Authorized-Apps-tab" i]::before
-        -webkit-mask: url("#{$personal}/authorisedApps.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/authorisedApps.svg") $ccn
     &[aria-controls="Connections-tab" i]::before
-        -webkit-mask: url("#{$personal}/connections.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/connections.svg") $ccn
 
 // Billing Settings
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
@@ -66,75 +68,75 @@ body #app-mount
         svg
             visibility: hidden
         &::before
-            -webkit-mask: url("#{$personal}/discordNitro.svg") center/contain no-repeat
+            -webkit-mask: url("#{$personal}/discordNitro.svg") $ccn
     &[aria-controls="Nitro Server Boost-tab" i]::before,
     &[aria-controls="Nitro-Server-Boost-tab" i]::before
-        -webkit-mask: url("#{$both}/serverBoost.svg") center/contain no-repeat
+        -webkit-mask: url("#{$both}/serverBoost.svg") $ccn
     &[aria-controls="Subscriptions-tab" i]::before
-        -webkit-mask: url("#{$personal}/subscriptions.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/subscriptions.svg") $ccn
     &[aria-controls="Library Inventory-tab" i]::before,
     &[aria-controls="Library-Inventory-tab" i]::before
-        -webkit-mask: url("#{$personal}/giftInventory.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/giftInventory.svg") $ccn
     &[aria-controls="Billing-tab" i]::before
-        -webkit-mask: url("#{$personal}/billing.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/billing.svg") $ccn
 
 // App Settings
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="Appearance-tab" i]::before
-        -webkit-mask: url("#{$personal}/appearance.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/appearance.svg") $ccn
     &[aria-controls="Accessibility-tab" i]::before
-        -webkit-mask: url("#{$personal}/accessibility.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/accessibility.svg") $ccn
     &[aria-controls="Voice & Video-tab" i]::before,
     &[aria-controls="Voice-&-Video-tab" i]::before
-        -webkit-mask: url("#{$personal}/voiceAndVideo.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/voiceAndVideo.svg") $ccn
     &[aria-controls="Text & Images-tab" i]::before,
     &[aria-controls="Text-&-Images-tab" i]::before
-        -webkit-mask: url("#{$personal}/textAndImages.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/textAndImages.svg") $ccn
     &[aria-controls="Notifications-tab" i]::before
-        -webkit-mask: url("#{$personal}/notifications.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/notifications.svg") $ccn
     &[aria-controls="Keybinds-tab" i]::before
-        -webkit-mask: url("#{$personal}/keybinds.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/keybinds.svg") $ccn
     &[aria-controls="Language-tab" i]::before
-        -webkit-mask: url("#{$personal}/language.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/language.svg") $ccn
     &[aria-controls="Windows-tab" i]::before
-        -webkit-mask: url("#{$personal}/windowsSettings.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/windowsSettings.svg") $ccn
     &[aria-controls="Streamer Mode-tab" i]::before,
     &[aria-controls="Streamer-Mode-tab" i]::before
-        -webkit-mask: url("#{$personal}/streamerMode.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/streamerMode.svg") $ccn
     &[aria-controls="Advanced-tab" i]::before
-        -webkit-mask: url("#{$personal}/advanced.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/advanced.svg") $ccn
 
 // Activity Settings
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="Game Activity-tab" i]::before,
     &[aria-controls="Game-Activity-tab" i]::before
-        -webkit-mask: url("#{$personal}/activityStatus.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/activityStatus.svg") $ccn
     &[aria-controls="Overlay-tab" i]::before
-        -webkit-mask: url("#{$personal}/gameOverlay.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/gameOverlay.svg") $ccn
 
 // Unnamed Category 1
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="ChangeLog-tab" i]::before,
     &[aria-controls="Change Log-tab" i]::before,
     &[aria-controls="Change-Log-tab" i]::before
-        -webkit-mask: url("#{$personal}/changeLog.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/changeLog.svg") $ccn
     &[aria-controls="Hypesquad Online-tab" i]::before,
     &[aria-controls="Hypesquad-Online-tab" i]::before
-        -webkit-mask: url("#{$personal}/hypesquad.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/hypesquad.svg") $ccn
     &[aria-controls="Experiments-tab" i]::before
-        -webkit-mask: url("#{$personal}/experiments.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/experiments.svg") $ccn
     &[aria-controls="Developer Options-tab" i]::before,
     &[aria-controls="Developer-Options-tab" i]::before
-        -webkit-mask: url("#{$personal}/developerOptions.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/developerOptions.svg") $ccn
     &[aria-controls="Hotspot Options-tab" i]::before,
     &[aria-controls="Hotspot-Options-tab" i]::before
-        -webkit-mask: url("#{$personal}/hotspotOptions.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/hotspotOptions.svg") $ccn
     &[aria-controls="Dismissible Content Options-tab" i]::before,
     &[aria-controls="Dismissible-Content-Options-tab" i]::before
-        -webkit-mask: url("#{$personal}/dismissibleContents.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/dismissibleContents.svg") $ccn
     &[aria-controls="Payment Flow Modals-tab" i]::before,
     &[aria-controls="Payment-Flow-Modals-tab" i]::before
-        -webkit-mask: url("#{$personal}/billing.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/billing.svg") $ccn
 
 // Unnamed Category 2
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
@@ -142,52 +144,52 @@ body #app-mount
         svg
             visibility: hidden
         &::before
-            -webkit-mask: url("#{$personal}/logOut.svg") center/contain no-repeat
+            -webkit-mask: url("#{$personal}/logOut.svg") $ccn
 
 // ---- Server Settings ----
 
 // Unnamed Category 1
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="OVERVIEW-tab" i]::before
-        -webkit-mask: url("#{$server}/overview.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/overview.svg") $ccn
     &[aria-controls="ROLES-tab" i]::before
-        -webkit-mask: url("#{$server}/roles.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/roles.svg") $ccn
     &[aria-controls="EMOJI-tab" i]::before
-        -webkit-mask: url("#{$both}/emotes.svg") center/contain no-repeat
+        -webkit-mask: url("#{$both}/emotes.svg") $ccn
     &[aria-controls="STICKERS-tab" i]::before
-        -webkit-mask: url("#{$server}/stickers.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/stickers.svg") $ccn
     &[aria-controls="MODERATION-tab" i]::before
-        -webkit-mask: url("#{$server}/moderation.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/moderation.svg") $ccn
     &[aria-controls="GUILD_AUTOMOD_MESSAGE_FILTER-tab" i]::before
-        -webkit-mask: url("#{$server}/guildAutomodMessageFilter.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/guildAutomodMessageFilter.svg") $ccn
     &[aria-controls="AUDIT_LOG-tab" i]::before
-        -webkit-mask: url("#{$server}/auditLog.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/auditLog.svg") $ccn
     &[aria-controls="INTEGRATIONS-tab" i]::before,
     &[aria-controls="status-tab" i]::before
-        -webkit-mask: url("#{$server}/integrations.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/integrations.svg") $ccn
     &[aria-controls="WIDGET-tab" i]::before
-        -webkit-mask: url("#{$server}/widget.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/widget.svg") $ccn
     &[aria-controls="GUILD_TEMPLATES-tab" i]::before
-        -webkit-mask: url("#{$server}/serverTemplates.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/serverTemplates.svg") $ccn
     &[aria-controls="VANITY_URL-tab" i]::before
-        -webkit-mask: url("#{$server}/vanityUrl.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/vanityUrl.svg") $ccn
 
 // Community
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="COMMUNITY-tab" i]::before
-        -webkit-mask: url("#{$server}/communityOverview.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/communityOverview.svg") $ccn
     &[aria-controls="ANALYTICS-tab" i]::before
-        -webkit-mask: url("#{$server}/serverInsights.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/serverInsights.svg") $ccn
     &[aria-controls="PARTNER-tab" i]::before
-        -webkit-mask: url("#{$server}/partnerProgram.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/partnerProgram.svg") $ccn
     &[aria-controls="MEMBER_VERIFICATION-tab" i]::before
-        -webkit-mask: url("#{$server}/membershipScreening.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/membershipScreening.svg") $ccn
     &[aria-controls="DISCOVERY-tab" i]::before
-        -webkit-mask: url("#{$server}/discovery.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/discovery.svg") $ccn
     &[aria-controls="COMMUNITY_WELCOME-tab" i]::before
-        -webkit-mask: url("#{$server}/welcomeScreen.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/welcomeScreen.svg") $ccn
     &[aria-controls="THREADS-tab" i]::before
-        -webkit-mask: url("#{$server}/threads.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/threads.svg") $ccn
 
 // Unnamed Category 2
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
@@ -195,16 +197,16 @@ body #app-mount
         svg
             visibility: hidden
         &::before
-            -webkit-mask: url("#{$both}/serverBoost.svg") center/contain no-repeat
+            -webkit-mask: url("#{$both}/serverBoost.svg") $ccn
 
 // User Management
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="MEMBERS-tab" i]::before
-        -webkit-mask: url("#{$server}/members.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/members.svg") $ccn
     &[aria-controls="INSTANT_INVITES-tab" i]::before
-        -webkit-mask: url("#{$server}/invites.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/invites.svg") $ccn
     &[aria-controls="BANS-tab" i]::before
-        -webkit-mask: url("#{$server}/bans.svg") center/contain no-repeat
+        -webkit-mask: url("#{$server}/bans.svg") $ccn
 
 // Unnamed Category 3
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
@@ -212,7 +214,7 @@ body #app-mount
         svg
             visibility: hidden
         &::before
-            -webkit-mask: url("#{$server}/deleteServer.svg") center/contain no-repeat
+            -webkit-mask: url("#{$server}/deleteServer.svg") $ccn
 
 // ------------------------ ♻️ GENERAL ICONS ------------------------
 
@@ -239,54 +241,54 @@ body #app-mount
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="Settings-tab" i]::before
-        -webkit-mask: url("#{$personal}/settings.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/settings.svg") $ccn
     &[aria-controls="Emotes-tab" i]::before
-        -webkit-mask: url("#{$both}/emotes.svg") center/contain no-repeat
+        -webkit-mask: url("#{$both}/emotes.svg") $ccn
     &[aria-controls="CustomCSS-tab" i]::before
-        -webkit-mask: url("#{$personal}/customCss.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/customCss.svg") $ccn
     &[aria-controls="Plugins-tab" i]::before
-        -webkit-mask: url("#{$personal}/plugins.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/plugins.svg") $ccn
     &[aria-controls="Themes-tab" i]::before
-        -webkit-mask: url("#{$personal}/themes.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/themes.svg") $ccn
     &[aria-controls="PluginRepo-tab" i]::before
-        -webkit-mask: url("#{$personal}/pluginRepo.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/pluginRepo.svg") $ccn
     &[aria-controls="ThemeRepo-tab" i]::before
-        -webkit-mask: url("#{$personal}/themeRepo.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/themeRepo.svg") $ccn
 
 // ---- Powercord ----
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="pc-general-tab" i]::before
-        -webkit-mask: url("#{$personal}/settings.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/settings.svg") $ccn
     &[aria-controls="pc-updater-tab" i]::before
-        -webkit-mask: url("#{$personal}/update.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/update.svg") $ccn
     &[aria-controls="pc-clickableedits-tab" i]::before
-        -webkit-mask: url("#{$personal}/edit.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/edit.svg") $ccn
     &[aria-controls="pc-hastebin-tab" i]::before
-        -webkit-mask: url("#{$personal}/customCss.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/customCss.svg") $ccn
     &[aria-controls="pc-lmgtfy-tab" i]::before
-        -webkit-mask: url("#{$personal}/cmd.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/cmd.svg") $ccn
     &[aria-controls="pc-spotify-tab" i]::before
-        -webkit-mask: url("#{$personal}/spotify.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/spotify.svg") $ccn
     &[aria-controls="pc-modulemanager-plugins-tab" i]::before
-        -webkit-mask: url("#{$personal}/plugins.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/plugins.svg") $ccn
     &[aria-controls="pc-modulemanager-themes-tab" i]::before
-        -webkit-mask: url("#{$personal}/themes.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/themes.svg") $ccn
     &[aria-controls="pc-emojiutility-tab" i]::before
-        -webkit-mask: url("#{$both}/emotes.svg") center/contain no-repeat
+        -webkit-mask: url("#{$both}/emotes.svg") $ccn
 
 // ---- Kernel BDCompat ----
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG
     &[aria-controls="Kernel Packages-Tab" i]::before,
     &[aria-controls="Kernel-Packages-Tab" i]::before
-        -webkit-mask: url("#{$personal}/packages.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/packages.svg") $ccn
     &[aria-controls="Kernel Updates-Tab" i]::before,
     &[aria-controls="Kernel-Updates-Tab" i]::before
-        -webkit-mask: url("#{$personal}/update.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/update.svg") $ccn
     &[aria-controls="Kernel Snippets-Tab" i]::before,
     &[aria-controls="Kernel-Snippets-Tab" i]::before
-        -webkit-mask: url("#{$personal}/customCss.svg") center/contain no-repeat
+        -webkit-mask: url("#{$personal}/customCss.svg") $ccn
 
 // Fix Icons Going Left
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:not(.tabBarItem-30Te4-)
