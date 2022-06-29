@@ -114,7 +114,6 @@ body #app-mount
 .sidebar-nqHbhN .side-2ur1Qk
     .item-3XjbnG.bd-settings-tab::before,
     .item-3XjbnG[aria-controls="pc-general-tab" i]::before,
-    .item-3XjbnG[aria-controls="lightcord-tab" i]::before,
     .item-3XjbnG[aria-controls="core-tab" i]::before,
     .item-3XjbnG[aria-controls="Settings-tab" i]::before
         -webkit-mask: url("#{$personal}/settings.svg") center/contain no-repeat
@@ -287,10 +286,11 @@ body #app-mount
 
 // ---- Kernel BDCompat ----
 // Fix Icons Going Left
-.premiumLabel-3HPvdB
-    width: 100%
-    > svg
-        right: 0
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:not(.tabBarItem-30Te4-)
+    .premiumLabel-3HPvdB
+        width: 100%
+        > svg
+            right: 0
 
     svg
         position: absolute
