@@ -136,7 +136,7 @@
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=OVERVIEW-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/server/overview.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=ROLES-tab i]::before {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=ROLES-tab i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=PERMISSIONS-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/server/roles.svg") center/contain no-repeat;
 }
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=EMOJI-tab i]::before {
