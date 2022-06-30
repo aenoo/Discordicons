@@ -2,11 +2,7 @@
     "name": "Discordicons",
     "description": "Add icons to Discord settings & change the settings icon all over Discord.",
     "version": "0.0.6",
-    "author": {
-        "name": "αɜno",
-        "id": "916799876677926982"
-    },
+    "author": "αɜno#3777",
     "theme": "src/discordicons.theme.css",
-    "consent": "false",
     "license": "MIT"
 }
