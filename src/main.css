@@ -280,13 +280,13 @@ body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/both/emotes.svg") center/contain no-repeat;
 }
 
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Kernel Packages-Tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Packages-Tab i]::before {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Packages-Tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/personal/packages.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Kernel Updates-Tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Updates-Tab i]::before {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Updates-Tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/personal/update.svg") center/contain no-repeat;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="Kernel Snippets-Tab" i]::before, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Snippets-Tab i]::before {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Kernel-Snippets-Tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/personal/customCss.svg") center/contain no-repeat;
 }
 
