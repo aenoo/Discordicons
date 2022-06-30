@@ -1,9 +1,9 @@
 /* CREDITS: Mirco Wittrien */
 /* https://github.com/mwittrien/BetterDiscordAddons/blob/master/Themes/_res/SettingsIcons.css */
-body #app-mount .sidebarRegion-1VBisG {
+#app-mount .sidebarRegion-1VBisG {
   flex-basis: 250px !important;
 }
-body #app-mount .sidebar-nqHbhN, body #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
+#app-mount .sidebar-nqHbhN, #app-mount .layer-86YKbF ~ .layer-86YKbF .sidebar-nqHbhN {
   width: 250px !important;
 }
 
