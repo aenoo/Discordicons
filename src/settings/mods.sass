@@ -1,0 +1,43 @@
+@import "mixin"
+
+// ------------------------ 🕹️ DISCORD CLIENT MODS ------------------------
+
+// ---- BetterDiscord ----
+@include icon("Settings", gear)
+@include icon("Emotes", emoji)
+@include icon("CustomCSS", code)
+@include icon("Plugins", plugin)
+@include icon("Themes", theme)
+@include icon("PluginRepo", pluginRepo)
+@include icon("ThemeRepo", themeRepo)
+
+// ---- Powercord ----
+@include icon("PC-General", gear)
+@include icon("PC-Updater", update)
+@include icon("PC-ClickableEdits", mouse)
+@include icon("PC-Hastebin", code)
+@include icon("PC-LGMTFY", google)
+@include icon("PC-Spotify", spotify)
+@include icon("PC-ModuleManager-Plugins", plugin)
+@include icon("PC-ModuleManager-Themes", theme)
+@include icon("PC-EmojiUtility", emoji)
+
+// ---- Kernel BDCompat ----
+@include icon("Kernel-Packages", package)
+@include icon("Kernel-Updates", update)
+@include icon("Kernel-Snippets", code)
+
+// Fix Icons Going Left
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:not(.tabBarItem-30Te4-)
+    .premiumLabel-3HPvdB
+        width: 100%
+        > svg
+            right: 0
+
+    svg
+        position: absolute
+        right: 10px
+
+.numberBadge-37OJ3S
+    position: absolute
+    right: 10px
