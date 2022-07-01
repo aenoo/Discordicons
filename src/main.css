@@ -312,12 +312,7 @@
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:not(.tabBarItem-30Te4-) .premiumLabel-3HPvdB > svg {
   right: 0;
 }
-.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:not(.tabBarItem-30Te4-) svg {
-  position: absolute;
-  right: 10px;
-}
-
-.numberBadge-37OJ3S {
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:not(.tabBarItem-30Te4-) .numberBadge-37OJ3S, .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG:not(.tabBarItem-30Te4-) svg {
   position: absolute;
   right: 10px;
 }
