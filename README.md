@@ -2,7 +2,7 @@
 
 [download-link]: https://github.com/aenoo/Discordicons/releases/download/vBD/discordicons.theme.css
 
-Add icons to Discord settings & change the settings icon all over Discord.
+Add icons to Discord settings tabs & change the gear icon everywhere in Discord.
 
 # Installation
 
@@ -32,7 +32,7 @@ See [PREVIEWS.md](https://github.com/aenoo/Discordicons/blob/main/PREVIEWS.md)
 
 # Credits
 
-- [Mirco Wittrien / DevilBro](https://github.com/mwittrien)
+- Mirco Wittrien: [@mwittrien](https://github.com/mwittrien)
 - Other credits are in [CREDITS.md](https://github.com/aenoo/Discordicons/blob/main/CREDITS.md)
 
 **Made with ❤️ by [αɜno](https://github.com/aenoo)**
