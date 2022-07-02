@@ -1,13 +1,13 @@
 # Discordicons Previews
 
-## Settings sidebars
+## Settings Icons
 
-![Settings sidebars](https://aenoo.github.io/Discordicons/assets/preview-sidebars.png)
+![Settings Icons](https://aenoo.github.io/Discordicons/assets/pvw-sidebars.png)
 
-- The color of the icons changes depending on the darkness of Discord background.
+- The color of the icons changes according to the darkness of Discord background.
 
-## "Settings" icon
+## Global Icons
 
-!["Settings" icon](https://aenoo.github.io/Discordicons/assets/preview-settings_icon.png)
+!["Gear" Icon](https://aenoo.github.io/Discordicons/assets/pvw-global.png)
 
-- The "settings" icon is changed everywhere in Discord.
+- The "gear" icon is changed everywhere in Discord.
