@@ -18,6 +18,10 @@
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/link.svg") center/contain no-repeat;
 }
 
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Friend-Requests-tab i]::before {
+  -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/friend.svg") center/contain no-repeat;
+}
+
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Discord-Nitro-tab i] svg {
   visibility: hidden;
 }
