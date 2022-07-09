@@ -37,7 +37,7 @@ See [PREVIEWS.md](https://github.com/aenoo/Discordicons/blob/main/PREVIEWS.md)
 # Credits
 
 - Mirco Wittrien: [@mwittrien](https://github.com/mwittrien)
-- Other credits are in [CREDITS.md](https://github.com/aenoo/Discordicons/blob/main/CREDITS.md)
 - [![Emoji Log Button][emoji-log-svg]][emoji-log-link]
+- [Other credits](https://github.com/aenoo/Discordicons/blob/main/CREDITS.md)
 
 **Made with ❤️ by [αɜno](https://github.com/aenoo)**
