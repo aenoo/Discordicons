@@ -3,6 +3,9 @@
 [download-link]: https://github.com/aenoo/Discordicons/releases/download/vBD/discordicons.theme.css
 [download-svg]: https://aenoo.github.io/Discordicons/github/download-button.svg
 
+[emoji-log-link]: https://github.com/ahmadawais/Emoji-Log/
+[emoji-log-svg]: https://aenoo.github.io/Discordicons/github/emoji-log-button.svg
+
 Add icons to Discord settings tabs & change the gear icon everywhere in Discord.
 
 # Installation
@@ -35,5 +38,6 @@ See [PREVIEWS.md](https://github.com/aenoo/Discordicons/blob/main/PREVIEWS.md)
 
 - Mirco Wittrien: [@mwittrien](https://github.com/mwittrien)
 - Other credits are in [CREDITS.md](https://github.com/aenoo/Discordicons/blob/main/CREDITS.md)
+- [![Emoji Log Button][emoji-log-svg]][emoji-log-link]
 
 **Made with ❤️ by [αɜno](https://github.com/aenoo)**
