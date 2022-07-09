@@ -1,6 +1,7 @@
 ![Banner](https://aenoo.github.io/Discordicons/assets/banner.png)
 
 [download-link]: https://github.com/aenoo/Discordicons/releases/download/vBD/discordicons.theme.css
+[download-svg]: https://aenoo.github.io/Discordicons/github/download-button.svg
 
 Add icons to Discord settings tabs & change the gear icon everywhere in Discord.
 
@@ -10,7 +11,7 @@ Add icons to Discord settings tabs & change the gear icon everywhere in Discord.
 
 Click the button below and save the file into your theme folder.
 
-[![Download](https://aenoo.github.io/Discordicons/github/download-button.svg)][download-link]
+[![Download Button][download-svg]][download-link]
 
 ## Powercord & Vizality
 
