@@ -25,7 +25,6 @@
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Discord-Nitro-tab i] svg {
   visibility: hidden;
 }
-
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Discord-Nitro-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/nitro.svg") center/contain no-repeat;
 }
@@ -83,7 +82,11 @@
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Advanced-tab i]::before {
-  -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/advanced.svg") center/contain no-repeat;
+  -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/more.svg") center/contain no-repeat;
+}
+
+.sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Activity-Privacy-tab i]::before {
+  -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/privacy.svg") center/contain no-repeat;
 }
 
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Game-Activity-tab i]::before {
@@ -125,7 +128,6 @@
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Logout-tab i] svg {
   visibility: hidden;
 }
-
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=Logout-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/logout.svg") center/contain no-repeat;
 }
@@ -213,7 +215,6 @@
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=GUILD_PREMIUM-tab i] svg {
   visibility: hidden;
 }
-
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=GUILD_PREMIUM-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/boost.svg") center/contain no-repeat;
 }
@@ -229,7 +230,6 @@
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=DELETE-tab i] svg {
   visibility: hidden;
 }
-
 .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls=DELETE-tab i]::before {
   -webkit-mask: url("https://aenoo.github.io/Discordicons/icons/settings/delete.svg") center/contain no-repeat;
 }
