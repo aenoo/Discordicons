@@ -5,6 +5,9 @@ $ccn: center/contain no-repeat
     .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="#{$ac}-tab" i]::before
         -webkit-mask: url("#{$path}/#{$svg}.svg") $ccn
 
-@mixin iconHs($ac)
-    .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="#{$ac}-tab" i]svg
-        visibility: hidden
+@mixin iconHs($ac, $svg)
+    .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG[aria-controls="#{$ac}-tab" i]
+        svg
+            visibility: hidden
+        &::before
+            -webkit-mask: url("#{$path}/#{$svg}.svg") $ccn
