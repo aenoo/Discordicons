@@ -1,4 +1,4 @@
-![Banner](https://aenoo.github.io/Discordicons/assets/banner.png)
+![Banner](https://aenoo.github.io/Discordicons/assets/banner.svg)
 
 [download-link]: https://github.com/aenoo/Discordicons/releases/download/vBD/discordicons.theme.css
 [download-svg]: https://aenoo.github.io/Discordicons/github/download-button.svg
