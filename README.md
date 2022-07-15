@@ -6,7 +6,7 @@
 [emoji-log-link]: https://github.com/ahmadawais/Emoji-Log/
 [emoji-log-svg]: https://aenoo.github.io/Discordicons/github/emoji-log-button.svg
 
-Add icons to Discord settings tabs & change the gear icon everywhere in Discord.
+Adds icons to Discord settings tabs & change the gear icon everywhere in Discord.
 
 # Installation
 
